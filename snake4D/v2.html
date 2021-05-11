@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>змейка 4D: 4x4x4x8</title>
+</head>
+
+<body style="background: #112; overflow: hidden; margin: 0;">
+    <div id="score"
+        style="text-align: center; font-size: xx-large; color: white; position: fixed; left: 50%; pointer-events: none;">
+        100</div>
+    <div style="position: fixed; margin: 10px; padding: 10px; background: #2228; font-size: 20px; color: white;">
+        Speed <input type="range" id="speed" value="100" min="1" max="200">
+    </div>
+    <div style="position: absolute; bottom: 0;margin: 5px;">
+        <div>
+            <b>Змейка 2D</b><br>
+            <a href="../snake2D/player_vs_player.html">2 игрока</a><br>
+            <a href="../snake2D/player_vs_BOT.html">игрок VS bot</a>
+        </div><br>
+        <div>
+            <b>Змейка 3D</b><br>
+            <a href="../snake3D/v1.html">10x10x10</a><br>
+            <a href="../snake3D/v2.html">3 змейки</a><br>
+            <a href="../snake3D/20snakes.html">20 змеек</a>
+        </div><br>
+        <div>
+            <b>Змейка 4D</b><br>
+            <a href="../snake4D/v1.html">10x10x10x3</a><br>
+        </div>
+    </div>
+    <script src="Snake4Dbot.js"></script>
+    <script type="module" src="v2.js"></script>
+</body>
+
+</html>
